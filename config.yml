@@ -1,0 +1,16 @@
+title: Formula 1 app
+description: Create a Formula 1 app
+template:
+  repo: formula-1-app-template
+  name: formula-1-app
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
