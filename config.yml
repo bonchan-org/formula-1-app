@@ -49,6 +49,7 @@ steps:
   - title: Calculate race performances
     description: The fifth step in your course
     event: issues.closed
+    link: '{{ repoUrl }}/issues/5'
     actions:
       - type: createIssue
         title: Calculate race performances
@@ -56,6 +57,7 @@ steps:
   - title: Display results
     description: The last step in your course
     event: issues.closed
+    link: '{{ repoUrl }}/issues/6'
     actions:
       - type: createIssue
         title: Display results
