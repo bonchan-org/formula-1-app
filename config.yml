@@ -17,7 +17,7 @@ steps:
         title: Create the driver class
         body: 01-create-driver.md
       - type: respond
-        with: 01-end.md
+        with: 01-respond.md
   - title: Add favourite track
     description: The second step in your course
     event: issues.closed
