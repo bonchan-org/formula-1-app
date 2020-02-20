@@ -11,10 +11,10 @@ steps:
   - title: Create F1 driver
     description: The first step in your course
     event: issues.closed
+    link: '{{ repoUrl }}'
     actions:
       - type: respond
         with: 00-respond.md
-        issue: Welcome!
       - type: createIssue
         title: Create the driver class
         body: 01-create-driver.md
@@ -27,6 +27,7 @@ steps:
       - type: createIssue
         title: Add favourite track
         body: 02-add-favorite-track.md
+    link: '{{ repoUrl }}/issues/2'
   - title: Create tracks
     description: The third step in your course
     event: issues.closed
