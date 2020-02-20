@@ -10,7 +10,50 @@ before:
 steps:
   - title: First step
     description: The first step in your course
-    event: issues.assigned
+    event: issues.closed
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: createIssue
+        title: Create the driver class
+        body: 01-create-driver.md
+  - title: Add favourite track
+    description: The second step in your course
+    event: issues.closed
+    actions:
+      - type: createIssue
+        title: Add favourite track
+        body: 02-add-favorite-track.md
+  - title: Create tracks
+    description: The third step in your course
+    event: issues.closed
+    actions:
+      - type: createIssue
+        title: Create tracks
+        body: 03-create-track.md
+  - title: Create races
+    description: The fourth step in your course
+    event: issues.closed
+    actions:
+      - type: createIssue
+        title: Create races
+        body: 04-races.md
+  - title: Calculate race performances
+    description: The fifth step in your course
+    event: issues.closed
+    actions:
+      - type: createIssue
+        title: Calculate race performances
+        body: 05-calc-driver-perf.md
+  - title: Display results
+    description: The last step in your course
+    event: issues.closed
+    actions:
+      - type: createIssue
+        title: Display results
+        body: 06-results.md
+  - title: Congrats, you're done
+    description: The last step in your course
+    event: issues.closed
+    actions:
+      - type: respond
+        with: 07-finish.md
