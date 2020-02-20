@@ -1,9 +1,9 @@
-This is the description we show on the course page [here](https://lab.github.com/bonchan-org/formula-1-app). This first paragraph will be featured at the top of the page so make it great.
-​
+You are tasked with creating a small web application for a Formula 1 game app using a framework of your choice.
 
-​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
-​
+The application allows creating Formula 1 drivers that have different skills. They are racing on different tracks that have unique characteritics.
 
+Their performance depends on their skills, but also on the tracks.
 
-Include information on how they can reach you for questions about the content or course. 
+You will have to build a small app that will be able to add new drivers and tracks, calculate their performaces and then display some results.
+
+There is an isssue created for you. Please open it and follow the instructions.

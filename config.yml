@@ -8,20 +8,22 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
+  - title: Create F1 driver
     description: The first step in your course
     event: issues.closed
-    link: '{{ repoUrl }}'
     actions:
+      - type: respond
+        with: 00-respond.md
+        issue: Welcome!
       - type: createIssue
         title: Create the driver class
         body: 01-create-driver.md
-      - type: respond
-        with: 01-respond.md
   - title: Add favourite track
     description: The second step in your course
     event: issues.closed
     actions:
+      - type: respond
+        with: 01-respond.md
       - type: createIssue
         title: Add favourite track
         body: 02-add-favorite-track.md
@@ -53,7 +55,7 @@ steps:
       - type: createIssue
         title: Display results
         body: 06-results.md
-  - title: Congrats, you're done
+  - title: 'Congrats, you''re done'
     description: The last step in your course
     event: issues.closed
     actions:
