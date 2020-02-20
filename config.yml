@@ -11,7 +11,7 @@ steps:
   - title: Create F1 driver
     description: The first step in your course
     event: issues.closed
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
         with: 00-respond.md
@@ -31,11 +31,15 @@ steps:
   - title: Create tracks
     description: The third step in your course
     event: issues.closed
+    link: '{{ repoUrl }}/issues/3'
     actions:
+      - type: respond
+        with: 02-respond.md
       - type: createIssue
         title: Create tracks
         body: 03-create-track.md
   - title: Create races
+    link: '{{ repoUrl }}/issues/4'
     description: The fourth step in your course
     event: issues.closed
     actions:
