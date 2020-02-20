@@ -2,7 +2,7 @@ title: Formula 1 app
 description: Create a Formula 1 app
 template:
   repo: formula-1-app-template
-  name: formula-1-app
+  name: formula-1-test-app
 before:
   - type: createIssue
     title: Welcome!
