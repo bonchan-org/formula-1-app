@@ -1,0 +1,1 @@
+Awesome stuff! F1 tracks have now been defined. Drivers are eager to start racing on them. Check out the next issue {{repoUrl}}/issues/5 to find out what is needed to do so they can compete against each other!

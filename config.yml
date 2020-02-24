@@ -43,6 +43,8 @@ steps:
     description: The fourth step in your course
     event: issues.closed
     actions:
+      - type: respond
+        with: 03-respond.md
       - type: createIssue
         title: Create races
         body: 04-races.md
@@ -51,6 +53,8 @@ steps:
     event: issues.closed
     link: '{{ repoUrl }}/issues/5'
     actions:
+      - type: respond
+        with: 04-respond.md
       - type: createIssue
         title: Calculate race performances
         body: 05-calc-driver-perf.md
@@ -59,6 +63,8 @@ steps:
     event: issues.closed
     link: '{{ repoUrl }}/issues/6'
     actions:
+      - type: respond
+        with: 05-respond.md
       - type: createIssue
         title: Display results
         body: 06-results.md

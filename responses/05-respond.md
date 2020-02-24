@@ -1,0 +1,1 @@
+You went so far, all drivers now know how they perform on each track! But, they wonder am I the best amongst all the drivers? Am I the record holder on this track? Check out what all statistics they are interested into from the issue  {{repoUrl}}/issues/7

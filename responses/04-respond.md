@@ -1,0 +1,1 @@
+Now we know what is needed to perform a race, but how do we find out who was the winner? Check out the next issue at {{repoUrl}}/issues/6
