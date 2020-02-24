@@ -8,7 +8,7 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: Create F1 driver
+  - title: Welcome!
     description: The first step in your course
     event: issues.closed
     link: '{{ repoUrl }}/issues/1'
@@ -18,7 +18,7 @@ steps:
       - type: createIssue
         title: Create the driver class
         body: 01-create-driver.md
-  - title: Add favourite track
+  - title: Create F1 driver
     description: The second step in your course
     event: issues.closed
     actions:
@@ -28,7 +28,7 @@ steps:
         title: Add favourite track
         body: 02-add-favorite-track.md
     link: '{{ repoUrl }}/issues/2'
-  - title: Create tracks
+  - title: Add favourite track
     description: The third step in your course
     event: issues.closed
     link: '{{ repoUrl }}/issues/3'
@@ -38,7 +38,7 @@ steps:
       - type: createIssue
         title: Create tracks
         body: 03-create-track.md
-  - title: Create races
+  - title: Create tracks
     link: '{{ repoUrl }}/issues/4'
     description: The fourth step in your course
     event: issues.closed
@@ -46,7 +46,7 @@ steps:
       - type: createIssue
         title: Create races
         body: 04-races.md
-  - title: Calculate race performances
+  - title: Create races
     description: The fifth step in your course
     event: issues.closed
     link: '{{ repoUrl }}/issues/5'
@@ -54,7 +54,7 @@ steps:
       - type: createIssue
         title: Calculate race performances
         body: 05-calc-driver-perf.md
-  - title: Display results
+  - title: Calculate race performances
     description: The last step in your course
     event: issues.closed
     link: '{{ repoUrl }}/issues/6'
@@ -62,7 +62,7 @@ steps:
       - type: createIssue
         title: Display results
         body: 06-results.md
-  - title: 'Congrats, you''re done'
+  - title: Display results
     description: The last step in your course
     event: issues.closed
     actions:
